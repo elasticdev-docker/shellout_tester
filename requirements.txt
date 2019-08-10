@@ -1,0 +1,8 @@
+boto==2.40.0
+chardet==3.0.3
+colorama==0.2.5
+decorator==3.4.0
+ipython==3.0.0
+Jinja2==2.8
+paramiko==1.17.4
+prettytable==0.6

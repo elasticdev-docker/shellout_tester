@@ -1,0 +1,12 @@
+test:
+  build: .
+  links:
+   - db
+  ports:
+   - "80:8000"
+  environment:
+   MONGO_HOST: db
+db:
+  image: mongo:latest
+  ports:
+   - "27017:27017"
